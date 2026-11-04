@@ -2,7 +2,9 @@
 
 Escritório isométrico (estilo Habbo) da **Gonzalez & Co. — Brand & Film Studio**.
 
-Abra `index.html` no navegador. Não precisa de servidor: a logo já vem embutida no arquivo.
+**Online:** https://tallesgc.github.io/Escrit-rio-IA/
+
+O escritório fica na pasta [`escritorio-gonzalez-co/`](escritorio-gonzalez-co/). O `index.html` da raiz só redireciona para ela, para o link público continuar o mesmo.
 
 ## Salas
 
@@ -15,4 +17,10 @@ Sala do Chefe, Sala de Reunião, Sala dos Funcionários, Sala de Jogos e Finance
 - **Reunião geral** leva a equipe para a sala de reunião.
 - Arraste para navegar, role para dar zoom; o menu lateral leva até cada sala.
 
-`assets/` guarda a logo original e a imagem de referência do projeto.
+## Estrutura
+
+```
+index.html                         redireciona para o escritório
+escritorio-gonzalez-co/index.html  o escritório (arquivo único, logo embutida)
+escritorio-gonzalez-co/assets/     logo original e imagem de referência
+```
